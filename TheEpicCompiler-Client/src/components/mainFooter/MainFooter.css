@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer{
+    @apply relative flex-1 flex flex-col w-full bg-light-1 dark:bg-dark-1 border border-x-0 border-b-0 border-t border-light-c-2;
+}
+
+.footer-button{
+    @apply relative inline-flex items-center me-2 px-4 py-2 rounded-md bg-light-c-1 dark:bg-dark-c-1 text-sm font-medium text-light-1 dark:text-dark-1 hover:bg-light-1 hover:text-light-c-1 hover:dark:bg-dark-1 hover:dark:text-dark-c-1 border border-light-1 dark:border-dark-1 hover:border-light-c-1 hover:dark:border-dark-c-1 focus:outline-none transition;
+}

@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.output-area{
+    resize:none;
+    @apply w-full h-full focus:outline-none p-2 bg-light-c-1 dark:bg-dark-c-1 text-light-1 dark:text-dark-1 rounded-lg;
+}

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.editor{
+    min-height: calc(100svh - 64px - 54px - 3px);
+    margin: 0;
+    @apply p-2;
+}
